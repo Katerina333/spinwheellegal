@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — Spin Wheel</title>
+  <style>
+    :root {
+      --bg: #16090c;
+      --card: #2e161b;
+      --text: #ffe3e8;
+      --text-dim: #c98e99;
+      --accent: #ff6480;
+      --link: #ffd166;
+      --border: #40262c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    header {
+      padding: 24px 0 16px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 28px;
+      font-weight: 800;
+    }
+    h2 {
+      margin-top: 2em;
+      font-size: 20px;
+      color: var(--accent);
+    }
+    h3 {
+      margin-top: 1.5em;
+      font-size: 16px;
+      color: var(--text);
+    }
+    a { color: var(--link); }
+    .sign { font-size: 32px; margin-right: 8px; vertical-align: middle; }
+    .subtitle { color: var(--text-dim); font-size: 14px; margin: 0; }
+    .meta { color: var(--text-dim); font-size: 13px; }
+    nav { margin-top: 12px; }
+    nav a {
+      display: inline-block;
+      margin-right: 16px;
+      font-size: 14px;
+    }
+    code, pre {
+      background: var(--card);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1em 0;
+      display: block;
+      overflow-x: auto;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 8px 10px;
+      text-align: left;
+      font-size: 14px;
+      vertical-align: top;
+    }
+    th { background: var(--card); color: var(--accent); }
+    ul, ol { padding-left: 1.5em; }
+    li { margin-bottom: 4px; }
+    blockquote {
+      border-left: 3px solid var(--accent);
+      margin: 1.5em 0;
+      padding: 4px 0 4px 16px;
+      color: var(--text-dim);
+    }
+    footer {
+      margin-top: 64px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      color: var(--text-dim);
+      font-size: 13px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><span class="sign">🛣️</span>{{ page.title }}</h1>
+      <p class="subtitle">MileQuest — road trip games for the whole car</p>
+      <nav>
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/support.html">Support</a>
+        <a href="{{ site.baseurl }}/terms.html">Terms of Use</a>
+        <a href="{{ site.baseurl }}/privacy.html">Privacy Policy</a>
+      </nav>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      © {{ 'now' | date: '%Y' }} MileQuest. Questions? <a href="mailto:info@itpmgroup.com">info@itpmgroup.com</a> · <a href="https://itpmgroup.com">itpmgroup.com</a>
+    </footer>
+  </div>
+</body>
+</html>
