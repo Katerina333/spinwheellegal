@@ -17,7 +17,7 @@ Tell us your device, your iOS version, and the app version (**Settings → About
 
 ### Does it need the internet?
 
-No. Everything works offline — the wheels, the tools, the Secret Santa draw, the voice control. There is no account and nothing to sign in to. Airplane mode is fine.
+No. Everything works offline — the wheels, the tools, the voice control. There is no account and nothing to sign in to. Airplane mode is fine.
 
 ### How do I add options to a wheel?
 
@@ -39,14 +39,6 @@ Yes. Every spin is a fresh random draw, and no result is weighted or decided in 
 
 Yes. In the editor, add a photo to any option, or use **Add photo options** to turn several pictures into one option each. Photos stay on your device.
 
-### How does Secret Santa work?
-
-Add everyone taking part, optionally block pairs who shouldn't draw each other, then shuffle. Everybody is drawn exactly once and nobody draws themselves. You can tell each person privately by message, or pass the phone around and let each person reveal their own name. If you mark yourself as **This is me**, your Apple Watch will show your person — and only yours.
-
-### Why can I see everyone's assignment?
-
-Because there is no server: the draw happens on the organiser's phone, so the phone knows it. The app says so plainly and keeps the names covered by default. If you'd rather not know, use the pass-the-phone reveal and look away.
-
 ### Can I change the colours?
 
 Yes — seven palettes, in light and dark. Pick one when you first open the app, or change it any time in **Settings → Theme**. You can also set a colour on an individual slice in the wheel editor.
@@ -59,7 +51,7 @@ Turn on **Settings → Announce winners aloud**. VoiceOver users are always told
 
 ## Subscriptions
 
-Spin Wheel is free to download and free to use. **Spin Wheel Premium** unlocks unlimited wheels, photo wheels, premium palettes, unlimited voice control and unlimited Secret Santa exchanges.
+Spin Wheel is free to download and free to use. **Spin Wheel Premium** unlocks unlimited wheels, photo wheels, premium palettes and unlimited voice control.
 
 ### Managing or cancelling
 

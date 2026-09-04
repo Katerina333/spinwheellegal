@@ -3,13 +3,13 @@ layout: default
 title: Privacy Policy
 ---
 
-<p class="meta">Effective 3 September 2026</p>
+<p class="meta">Effective 4 September 2026</p>
 
 ## The short version
 
 **Spin Wheel does not collect your data.** There is no account, no sign-up and
-no server. Your wheels, photos, names, Secret Santa draws and spin results are
-stored on your device and never sent to us, because there is nowhere for them
+no server. Your wheels, photos, names and spin results are stored
+on your device and never sent to us, because there is nowhere for them
 to be sent to — the app contains no networking code and no analytics of any
 kind.
 
@@ -27,8 +27,6 @@ works.
   remove the option.
 - **Spin history** — what each spin landed on, and when.
 - **Name Picker roster** — the names you last used, so you don't retype them.
-- **Secret Santa** — participants' names, any phone numbers you add, exclusion
-  rules and the resulting draw.
 - **Settings** — your palette, appearance, sound and voice preferences.
 
 All of it lives in the app's private storage. Deleting the app deletes all of
@@ -37,13 +35,6 @@ it. There is no cloud copy and no way for us to retrieve it.
 ---
 
 ## Permissions the app may ask for
-
-### Contacts
-
-Only if you use **Choose from Contacts** when building a Secret Santa. The app
-reads the names and phone numbers of the people you pick, at the moment you
-pick them, and stores them with that exchange on your device. It never reads
-your address book in the background and never uploads it.
 
 ### Photos
 
@@ -60,16 +51,14 @@ falls back to Apple's speech recognition service, and Apple's privacy policy
 covers that transcription. The app never records, stores or transmits audio
 itself.
 
-You can decline any of these and keep using everything else.
+You can decline either of these and keep using everything else.
 
 ---
 
 ## Apple Watch
 
 Wheels sync between your iPhone and your paired Apple Watch using Apple's
-device-to-device Watch Connectivity, which does not pass through us. If you
-mark yourself in a Secret Santa, only *your own* assigned person is sent to
-your watch — never the rest of the list.
+device-to-device Watch Connectivity, which does not pass through us.
 
 ---
 

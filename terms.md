@@ -3,7 +3,7 @@ layout: default
 title: Terms of Use
 ---
 
-<p class="meta">Effective 3 September 2026</p>
+<p class="meta">Effective 4 September 2026</p>
 
 ## Licence
 
@@ -18,8 +18,7 @@ The terms below add to it; where they conflict, Apple's agreement wins.
 
 Spin Wheel is free to download and free to use. **Spin Wheel Premium** is an
 optional auto-renewable subscription that unlocks unlimited wheels, photo
-wheels, premium palettes, unlimited voice control and unlimited Secret Santa
-exchanges.
+wheels, premium palettes and unlimited voice control.
 
 - Payment is charged to your Apple Account at confirmation of purchase.
 - A subscription renews automatically unless it is cancelled at least 24 hours

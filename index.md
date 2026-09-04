@@ -7,7 +7,7 @@ title: Welcome
 
 Can't decide? Put the options on a wheel, give it a spin, and let chance settle it.
 
-Spin Wheel turns anything into a custom wheel — dinner, chores, teams, prizes, classroom questions, who goes first. It also carries quick tools for dice, coin flips, random numbers and name draws, a full Secret Santa gift exchange, an Apple Watch app, and Siri and voice control so you can spin without touching the screen.
+Spin Wheel turns anything into a custom wheel — dinner, chores, teams, prizes, classroom questions, who goes first. It also carries quick tools for dice, coin flips, random numbers and name draws, an Apple Watch app, and Siri and voice control so you can spin without touching the screen.
 
 Everything runs **on your device**. There is no account, nothing to sign up for, and the app never sends your wheels, photos, names or results anywhere.
 
