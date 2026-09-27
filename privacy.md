@@ -12,9 +12,10 @@ There is no account, no sign-up and no server of ours. Everything works in
 Airplane Mode.
 
 From version 1.1, the app sends **anonymous usage counts** — for example that a
-spin happened or which tool was opened — so we can see which features people
-use. These counts never contain what you type: no wheel titles, no options, no
-names, no photos. You can switch them off at any time in
+spin happened or which tool was opened — and **crash reports**, so we can see
+which features people use and fix what breaks. None of it contains what you
+type: no wheel titles, no options, no names, no photos. None of it is linked to
+your identity. You can switch all of it off at any time in
 **Settings → Privacy → Share anonymous usage data**.
 
 ---
@@ -56,16 +57,34 @@ You can decline either of these and keep using everything else.
 
 ---
 
-## Anonymous usage data (version 1.1 and later)
+## Anonymous usage and diagnostic data (version 1.1 and later)
 
-The app uses **Google Analytics for Firebase**, provided by Google, to count how
-features are used. What is sent:
+The app uses two Google services: **Google Analytics for Firebase**, to count
+how features are used, and **Firebase Crashlytics**, to report crashes. This is
+the data they collect, in the categories Apple's App Store privacy label uses —
+all of it **not linked to you**, and **not used for tracking**:
+
+| App Store category | What it is here | Used for |
+|---|---|---|
+| Usage Data → Product Interaction | feature events, listed below | Analytics, App Functionality |
+| Diagnostics → Crash Data | crash reports: where in the code it crashed, the stack trace, app state flags | Analytics, App Functionality |
+| Diagnostics → Performance Data | technical measurements such as app launches, session length, memory and disk state at a crash | Analytics, App Functionality |
+| Identifiers → Device ID | a random app-instance / installation ID created by Firebase — not the advertising identifier | Analytics, App Functionality |
+
+"App Functionality" here means finding and fixing crashes and bugs; "Analytics"
+means understanding which features are used so we can improve them.
+
+In detail:
 
 - **Events** — such as "a wheel was spun", "a wheel was created", "the Dice
   tool was used", "the Premium screen was shown" and whether a purchase
   started, finished or was cancelled. Events carry only counts and fixed
   categories (for example the number of options on a wheel, or which tool),
   never text you entered.
+- **Crash reports** — when the app crashes, Crashlytics sends the stack trace
+  (which code was running), the app and iOS version, device model, free memory
+  and disk space, orientation and whether the app was in the foreground. Crash
+  reports contain no wheel content, names or photos.
 - **An app-instance identifier** — a random ID created by Firebase for this
   installation, plus basic technical details such as device model, iOS
   version, app version and country (derived from the network by Google).
@@ -78,12 +97,14 @@ identity and is not used for tracking or advertising.
 
 Google processes this data on our behalf under the
 [Firebase data processing terms](https://firebase.google.com/terms/data-processing-terms);
-see also [Google's privacy policy](https://policies.google.com/privacy). Analytics
-data is kept for no longer than 14 months and then deleted automatically.
+see also [Google's privacy policy](https://policies.google.com/privacy) and
+[Firebase's privacy information](https://firebase.google.com/support/privacy).
+Analytics data is kept for no longer than 14 months and crash reports for 90
+days, then deleted automatically.
 
 **Turning it off:** Settings → Privacy → *Share anonymous usage data*. When it is
-off, nothing is sent. Deleting the app also deletes the app-instance
-identifier.
+off, neither usage counts nor crash reports are sent. Deleting the app also
+deletes the app-instance identifier.
 
 ---
 
@@ -106,13 +127,13 @@ currently active.
 ## What we do not do
 
 - No advertising and no advertising identifier
-- No crash reporting and no content analytics — only the anonymous usage counts
+- No content analytics — only the anonymous usage counts and crash reports
   described above, which you can switch off
 - No tracking as defined by Apple's App Tracking Transparency — the app never
   shows an ATT prompt because there is nothing to ask about
 - No accounts, no email collection, no newsletters
 - No selling of data, and no sharing beyond Google processing the usage counts
-  on our behalf
+  and crash reports on our behalf
 
 ---
 
@@ -120,15 +141,15 @@ currently active.
 
 Spin Wheel is suitable for all ages and is often used in classrooms and by
 families. It collects no personal information from anyone, including children:
-the anonymous usage counts contain nothing a child types or says, and they can
-be switched off in Settings.
+the anonymous usage counts and crash reports contain nothing a child types or
+says, and they can be switched off in Settings.
 
 ---
 
 ## Your rights
 
 Everything you create stays on your device and is in your hands: deleting the
-app removes all of it. The anonymous usage counts are tied only to a random
+app removes all of it. The anonymous usage counts and crash reports are tied only to a random
 app-instance identifier, not to you; if you want them deleted, email us and we
 will ask Google to delete the data for your installation, or simply switch
 sharing off and delete the app.
