@@ -3,18 +3,19 @@ layout: default
 title: Privacy Policy
 ---
 
-<p class="meta">Effective 4 September 2026</p>
+<p class="meta">Effective 27 September 2026 (Spin Wheel 1.1). Previous version: 4 September 2026.</p>
 
 ## The short version
 
-**Spin Wheel does not collect your data.** There is no account, no sign-up and
-no server. Your wheels, photos, names and spin results are stored
-on your device and never sent to us, because there is nowhere for them
-to be sent to — the app contains no networking code and no analytics of any
-kind.
+**Your wheels, photos, names and spin results never leave your device.**
+There is no account, no sign-up and no server of ours. Everything works in
+Airplane Mode.
 
-You can verify this yourself: put the device in Airplane Mode. Everything still
-works.
+From version 1.1, the app sends **anonymous usage counts** — for example that a
+spin happened or which tool was opened — so we can see which features people
+use. These counts never contain what you type: no wheel titles, no options, no
+names, no photos. You can switch them off at any time in
+**Settings → Privacy → Share anonymous usage data**.
 
 ---
 
@@ -55,6 +56,37 @@ You can decline either of these and keep using everything else.
 
 ---
 
+## Anonymous usage data (version 1.1 and later)
+
+The app uses **Google Analytics for Firebase**, provided by Google, to count how
+features are used. What is sent:
+
+- **Events** — such as "a wheel was spun", "a wheel was created", "the Dice
+  tool was used", "the Premium screen was shown" and whether a purchase
+  started, finished or was cancelled. Events carry only counts and fixed
+  categories (for example the number of options on a wheel, or which tool),
+  never text you entered.
+- **An app-instance identifier** — a random ID created by Firebase for this
+  installation, plus basic technical details such as device model, iOS
+  version, app version and country (derived from the network by Google).
+
+What is **not** sent: your wheels, options, photos, names, spin results, spin
+history, contacts, voice or any advertising identifier. The app does not use
+the advertising identifier (IDFA), does not ask for tracking permission, and
+turns off Google's ad-personalisation signals. The data is not linked to your
+identity and is not used for tracking or advertising.
+
+Google processes this data on our behalf under the
+[Firebase data processing terms](https://firebase.google.com/terms/data-processing-terms);
+see also [Google's privacy policy](https://policies.google.com/privacy). Analytics
+data is kept for no longer than 14 months and then deleted automatically.
+
+**Turning it off:** Settings → Privacy → *Share anonymous usage data*. When it is
+off, nothing is sent. Deleting the app also deletes the app-instance
+identifier.
+
+---
+
 ## Apple Watch
 
 Wheels sync between your iPhone and your paired Apple Watch using Apple's
@@ -73,29 +105,33 @@ currently active.
 
 ## What we do not do
 
-- No analytics, telemetry, crash reporting or usage tracking
 - No advertising and no advertising identifier
-- No third-party SDKs of any kind
+- No crash reporting and no content analytics — only the anonymous usage counts
+  described above, which you can switch off
 - No tracking as defined by Apple's App Tracking Transparency — the app never
   shows an ATT prompt because there is nothing to ask about
 - No accounts, no email collection, no newsletters
-- No selling or sharing of data, because none is collected
+- No selling of data, and no sharing beyond Google processing the usage counts
+  on our behalf
 
 ---
 
 ## Children
 
 Spin Wheel is suitable for all ages and is often used in classrooms and by
-families. Since the app collects no data at all, it collects none from children
-either.
+families. It collects no personal information from anyone, including children:
+the anonymous usage counts contain nothing a child types or says, and they can
+be switched off in Settings.
 
 ---
 
 ## Your rights
 
-Because we hold no data about you, there is nothing for us to export, correct
-or delete on request. Everything is in your hands: deleting the app removes all
-of it from the device.
+Everything you create stays on your device and is in your hands: deleting the
+app removes all of it. The anonymous usage counts are tied only to a random
+app-instance identifier, not to you; if you want them deleted, email us and we
+will ask Google to delete the data for your installation, or simply switch
+sharing off and delete the app.
 
 ---
 
